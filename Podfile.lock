@@ -1,0 +1,46 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - MMDB-Swift (0.3.0)
+  - Resolver (1.0)
+  - Sodium (0.8.0)
+  - Yaml (3.4.4)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - CocoaLumberjack/Swift
+  - MMDB-Swift
+  - Resolver (from `https://github.com/twodayslate/Resolver.git`)
+  - Sodium
+  - Yaml
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - MMDB-Swift
+    - Sodium
+    - Yaml
+
+EXTERNAL SOURCES:
+  Resolver:
+    :git: https://github.com/twodayslate/Resolver.git
+
+CHECKOUT OPTIONS:
+  Resolver:
+    :commit: 3c678161d15f098bd056b7420e9595669c66fc45
+    :git: https://github.com/twodayslate/Resolver.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  MMDB-Swift: bc8ec03ce32286ac30f7bf3a50eca7eef59c8006
+  Resolver: 17f4dd7b03491336ec4f495d97180e0dba6a021c
+  Sodium: 63c0ca312a932e6da481689537d4b35568841bdc
+  Yaml: 52831fc1d9ac2db4ddf6d7562993457127256ca6
+
+PODFILE CHECKSUM: 755a52db75132dfc58768c39d628c3fb7cda2362
+
+COCOAPODS: 1.7.0
