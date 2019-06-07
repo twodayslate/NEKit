@@ -1,5 +1,5 @@
 import Foundation
-import MMDB
+import MMDB_Swift
 
 open class GeoIP {
     public static let database = MMDB()!

@@ -1,4 +1,4 @@
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for NEKit.
 FOUNDATION_EXPORT double NEKitVersionNumber;
